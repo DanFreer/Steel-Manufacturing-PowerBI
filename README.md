@@ -2,7 +2,7 @@
 
 Synthetic star-schema dataset and Power BI dashboard for a steel fabrication plant (plasma cutting, milling, bending, welding). Built to analyze production stability, quality defects, labor efficiency, and shipping performance.
 
-![Executive Overview](screenshots/overview.png)
+![Executive Dashboard](screenshots/overview.png)
 
 ## Business Context
 
@@ -31,8 +31,8 @@ Star schema with conformed dimensions:
 
 | Page | Focus |
 |------|--------|
-| Executive Overview | Volume, defect rate, on-time %, labor hours |
-| Production & Quality | Daily output vs target, defect trends by product |
+| Executive Dashboard | Volume, defect rate, on-time %, labor hours |
+| Operations Dashboard | Monthly output vs target, defect trends by product |
 | Labor & Efficiency | Hours by department, units per labor hour |
 | Shipping | On-time delivery and link to quality |
 
@@ -44,7 +44,7 @@ Star schema with conformed dimensions:
 
 ## Getting Started
 
-### 1. Regenerate data (optional)
+### 1. Regenerate data 
 
 ```bash
 node generate_data.js
