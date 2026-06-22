@@ -1,0 +1,7 @@
+DepartmentKey,DepartmentName,Shift,AvgDailyHours,Headcount
+1,Plasma Cutting,Day,110,8
+2,Milling,Day,88,6
+3,Bending,Day,72,5
+4,Welding,Day,96,10
+5,Quality Inspection,Day,40,4
+6,Shipping,Day,32,4

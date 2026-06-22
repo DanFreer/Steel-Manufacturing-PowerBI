@@ -1,0 +1,5 @@
+ProductKey,ProductName,ProductType,MaterialGrade,TargetDailyQty,DefectRateTarget,PrimaryDepartment
+1,PLT-100 Base Plate,Plasma Cut,A36 Steel,120,0.028,Plasma Cutting
+2,BRG-200 Bearing Housing,Milled,4140 Steel,85,0.022,Milling
+3,CHN-300 Frame Channel,Bent,A572 Steel,100,0.025,Bending
+4,BKT-400 Bracket Assembly,Welded,A36 Steel,95,0.03,Welding
