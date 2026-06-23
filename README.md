@@ -40,17 +40,17 @@ Star schema with conformed dimensions:
 
 **Production:**
 - Which product is furthest from its daily target most often, and is that gap widening over time?
-  -- Q4's higher than expect outputs in Oct put undue stress on the system. Balance output to maintain consistency.
-  -- The gap is fairly stable, End of Year caused bottlenecks down the chain.
+  - Q4's higher than expect outputs in Oct put undue stress on the system. Balance output to maintain consistency.
+    - The gap is fairly stable, End of Year caused bottlenecks down the chain.
 
 **Quality**
 - Which product has the highest defect rate, and is it getting better or worse quarter over quarter?
   - PLT-100, BASE PLATE - Higher output increased the chance of defects, however february had 2 days and a rate of .04, 25% increase vs the nominal.
-  - Process is complex, possible issues at the time: Training, maintenance, defective plate - further investigation on the ground is needed
+    - Process is complex, possible issues at the time: Training, maintenance, defective plate - further investigation on the ground is needed
   
 - Do defect spikes happen randomly, or do they cluster in specific weeks or months?
   - Grain on this report isnt daily, but spikes trend towards mid-week.
-  - Possible solution: Mid week checks on QA by management, do not impact output.
+    - Possible solution: Mid week checks on QA by management, do not impact output.
 
 **Labor and Efficiency**
 - Does units-per-labor-hour differ meaningfully by product, and what would explain that?
@@ -59,7 +59,7 @@ Star schema with conformed dimensions:
 **Shipping**
 - Is on-time performance stable, or are there periods we'd fail a customer SLA?
   - Partly stable, EOY issues slowed delivers.
-  - Solution: slow production numbers, increased attention.
+    - Solution: slow production numbers, increased attention.
 - When late orders spike, does it align with high-defect or low-production days?
   - High defects and lower production contributed to lower On-Time Deliveries, bottlenecking due to having to check more product before shipping.
 
